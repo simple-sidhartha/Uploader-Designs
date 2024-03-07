@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HDFC ERGO - Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        </a>
+      </div>
+      <!-- End Logo -->
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            eStecker
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Help
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-profile d-flex align-items-center" href="#" data-bs-toggle="dropdown">
+            <span class="d-none d-md-block dropdown-toggle"><i class="bi bi-person"></i>Sidhartha Mishra</span>
+            </a><!-- End Profile Iamge Icon -->
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                <span>Sign Out</span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Profile Dropdown Items -->
+          </li>
+          <!-- End Profile Nav -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            <i class="bi bi-calendar"></i>12th Feb 2024
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End Icons Navigation -->
+    </header>
+    <!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+        <aside id="sidebar" class="sidebar">
+          <ul class="sidebar-nav" id="sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+              <span>Main Menu</span><i class="bi bi-chevron-down ms-auto"></i>
+              </a>
+              <ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+                <li>
+                  <a href="#">
+                  <span>Applications</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span>DWH Mail</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span>Deal Management</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span>Master</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <span>Reports</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- End Components Nav -->
+          </ul>
+        </aside>
+        <!-- End Sidebar-->
+      </div>
+      <div class="col-lg-9 col-md-9">
+        <main id="main" class="main">
+          <div class="pagetitle new-title">
+            <h1>Rural and Agri Business Group - Upload</h1>
+            <button type="submit" class="btn btn-success">View Data</button>
+          </div>
+          <!-- End Page Title -->
+          <div class="new-title2">
+            <h5>Download Sample</h5>
+          </div>
+          <form>
+            <div class="row">
+              <label class="col-sm-2 col-form-label">Select Sample</label>
+              <div class="col-sm-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>RABG</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-sm-3">
+                <button type="submit" class="btn btn-primary w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Retail Channel Master Upload">Download Sample</button>
+              </div>
+            </div>
+            <hr/>
+            <div class="row">
+              <label for="inputNumber" class="col-sm-2 col-form-label">Upload File</label>
+              <div class="col-sm-4">
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="col-sm-3">
+                <button type="submit" class="btn btn-primary w-100">Upload</button>
+              </div>
+            </div>
+          </form>
+        </main>
+        <!-- End #main -->
+      </div>
+    </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="row align-items-center">
+      <div class="col-sm-10">
+      <ul class="footer-links">
+        <li><a href="">HDFC ERGO</a></li>
+        <li><a href="">HDFC Bank</a></li>
+        <li><a href="">HDFC Standard Life</a></li>
+        <li><a href="">HDFC Securities</a></li>
+        <li><a href="">HDFC Realty</a></li>
+        <li><a href="">HDFC Mutual Fund</a></li>
+      </ul>
+    </div>
+     <div class="col-sm-2">
+      <div class="foot-logo">
+        <img src="assets/img/logo.png" height="50px">
+      </div>
+    </div>
+   </div>
+
+      <hr/>
+      <p>&copy; 2024 HDFC ERGO. All rights reserved.</p>
+   
+    </footer>
+    <!-- End Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
